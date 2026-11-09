@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Lin Zhili</title>
+  <desc id="desc">HKU student. Building ideas into useful tools. A pastel gradient banner with a dark terminal panel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcf5ec"/>
+      <stop offset=".46" stop-color="#eef3fa"/>
+      <stop offset="1" stop-color="#e9e2fa"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop stop-color="#189fb4"/>
+      <stop offset=".52" stop-color="#387ffa"/>
+      <stop offset="1" stop-color="#8555e9"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#a6c9f5" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#a6c9f5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="378" rx="26" fill="url(#bg)" stroke="#d6dfed"/>
+  <ellipse cx="620" cy="360" rx="420" ry="190" fill="url(#glow)"/>
+  <g font-family="Verdana, Geneva, sans-serif">
+    <text x="62" y="88" font-size="13" font-weight="700" letter-spacing="4" fill="#0aa889">HELLO, WORLD</text>
+    <text x="59" y="159" font-size="53" font-weight="700" fill="#101828">I'm <tspan fill="url(#name)">Lin Zhili</tspan><tspan font-size="37"> 👋</tspan></text>
+    <text x="62" y="218" font-family="Menlo, Consolas, monospace" font-size="20" fill="#495970"><tspan fill="#895cf1">&gt; </tspan>Ideas · Code · Useful things</text>
+    <g transform="translate(62 263)">
+      <rect width="142" height="34" rx="17" fill="#fff" stroke="#d6dfed"/>
+      <circle cx="21" cy="17" r="4" fill="#0bb394"/>
+      <text x="35" y="22" font-size="12" font-weight="700" fill="#495970">Hong Kong</text>
+      <rect x="153" width="92" height="34" rx="17" fill="#fff" stroke="#d6dfed"/>
+      <text x="173" y="22" font-size="12" font-weight="700" fill="#495970">🎓 HKU</text>
+      <rect x="256" width="120" height="34" rx="17" fill="#fff" stroke="#d6dfed"/>
+      <text x="276" y="22" font-size="12" font-weight="700" fill="#495970">✦ Builder</text>
+    </g>
+  </g>
+  <g transform="translate(713 58)">
+    <rect width="429" height="259" rx="17" fill="#101827"/>
+    <path d="M17 0H412Q429 0 429 17V41H0V17Q0 0 17 0" fill="#202c3e"/>
+    <circle cx="23" cy="21" r="5" fill="#ff6059"/>
+    <circle cx="42" cy="21" r="5" fill="#ffbd2e"/>
+    <circle cx="61" cy="21" r="5" fill="#28c840"/>
+    <g font-family="Menlo, Consolas, monospace" font-size="14">
+      <text x="181" y="26" fill="#a7b7ce">~/lin-zhili</text>
+      <text x="25" y="79" fill="#18d6b2"><tspan fill="#b08bff">$ </tspan>whoami</text>
+      <text x="25" y="106" fill="#e7eef9">lin zhili — student @ HKU</text>
+      <text x="25" y="153" fill="#18d6b2"><tspan fill="#b08bff">$ </tspan>cat interests.txt</text>
+      <text x="25" y="180" fill="#e7eef9">AI products / web / automation</text>
+      <text x="25" y="228" fill="#b08bff">$</text>
+      <rect x="43" y="213" width="8" height="18" fill="#18d6b2" opacity=".8"/>
+    </g>
+  </g>
+</svg>
